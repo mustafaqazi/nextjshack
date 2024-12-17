@@ -121,9 +121,6 @@ export default function Pro_Detail(){
                    <Button className="bg-black text-white w-[300px]">Add to Cart</Button>
                </div>
                </div>
-              
-              
-
-        </div>
+            
     )
 }

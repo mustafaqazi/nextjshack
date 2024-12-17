@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 import { useParams } from "next/navigation";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button"
 import { Check, Minus, Plus } from "lucide-react";
 let star = [<FaStar/>,<FaStar/>,<FaStar/>,<FaStar/>,<FaStar/>]
 

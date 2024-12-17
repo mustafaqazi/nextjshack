@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 import { useParams } from "next/navigation";
-import { Button } from "../components/ui/button"
+import { Button } from "components/ui/button"
 import { Check, Minus, Plus } from "lucide-react";
 let star = [<FaStar/>,<FaStar/>,<FaStar/>,<FaStar/>,<FaStar/>]
 
@@ -88,8 +88,7 @@ export default function Pro_Detail(){
                {/* right div */}
                <div className=" w-full sm:w-[600px] h-[500px] mt-3 order-3">
                    <h1 className="text-2xl md:text-3xl font-bold">One Life Graphic T-shirt</h1>
-                   <div className="flex text-yellow-400">
-                      {star}
+                   <p className="flex text-yellow-400">{star}</p>
                    </div>
                    <p className="font-bold mt-1">{item.price} <span>{item.old_price}</span> </p>
                    <p>This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</p>
